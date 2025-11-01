@@ -26,9 +26,10 @@
   },
   "baseUrl": ".",
   "paths": {
-    "#base/*": ["./src/*"],
+    "#shared/*": ["./src/*"],
     "#components/*": ["../ui/src/components/*"],
-    "#ui/*": ["../ui/src/*"]
+    "#ui/*": ["../ui/src/*"],
+    "#base/*": ["../base/src/*"],
   },
-  "include": ["**/*", "../ui/**/*"]
+  "include": ["**/*", "../base/**/*", "../ui/**/*"]
 }
