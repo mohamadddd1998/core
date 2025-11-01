@@ -1,2 +1,2 @@
-const Button = () => <button>Test</button>;
+const Button = () => <button>Button</button>;
 export default Button;
